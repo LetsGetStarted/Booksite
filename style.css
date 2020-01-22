@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1  {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.container {
+  background-color: skyblue;
+  padding: 20px;
+}
+
+.box {
+  border: 2px solid black;
+  padding: 20px;
+}
+.img-container {
+  width: 50%;
+  height: 50%;
+  background-color: lightgray;
+
+}
