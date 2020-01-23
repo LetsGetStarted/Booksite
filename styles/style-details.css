@@ -7,3 +7,114 @@
 html {
   font-family: sans-serif;
 }
+
+.header {
+  background-color:  White;
+}
+
+.header h1 {
+  background-color: inherit;
+  text-align: center;
+  padding: 20px;
+}
+
+.header p {
+  text-align: center;
+  font-size: 20px
+  padding: 10px;
+
+}
+
+/* Do I needa nav here ? */
+
+.nav {
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 5px solid black;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.nav a:hover {
+  background-color: lightgray;
+}
+
+.nav-right {
+  float: right;
+}
+
+/* .detail-wrapper {
+  border: 2px solid #000;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.box-detail {
+  float: left;
+  width: 24.99999%;
+  padding: 10px;
+
+}
+
+.detail {
+  float: left;
+  width: 74.99999%%;
+  padding: 10px;
+} */
+
+
+.detail-wrapper {
+  border: 2px radius #000;
+  overflow: hidden;
+}
+
+.detail-wrapper div {
+  padding: 10px;
+}
+
+.box-detail {
+  float: left;
+  margin-right: 20px;
+  width: 25.99999%
+  }  /* one */
+
+.detail {
+  overflow: hidden;
+  margin: 10px;
+  width:  calc(73.99999% - 20px);
+  text-align: left;
+  line-height: 1.4em;
+} /* two */
+
+.img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
