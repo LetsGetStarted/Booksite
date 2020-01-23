@@ -89,9 +89,22 @@ html {
   overflow: hidden;
   margin: 10px;
   width:  calc(73.99999% - 20px);
+  height: 100%;;
   text-align: left;
   line-height: 1.4em;
-} /* two */
+  /* background-color: #5b5b3e; */
+} /* two */ /* background color to see the element */
+
+.detail p {
+  /* background-color: #cc0000; */
+}
+
+.img-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #ff0000; /* Why does it show under the img? Padding?  */
+}
 
 .img-container img {
   width: 100%;
