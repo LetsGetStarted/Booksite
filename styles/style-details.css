@@ -8,99 +8,48 @@ html {
   font-family: sans-serif;
 }
 
-/* Do I needa nav here ? */
-
-.nav {
-  background-color: white;
-  overflow: hidden;
-  border-bottom: 5px solid black;
+.row {
+  background-color: red;
+  
 }
 
-.nav a {
+
+.img-column,
+.synopsis-column {
   float: left;
-  display: block;
-  padding: 10px 10px;
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-
-.nav a:hover {
-  background-color: lightgray;
-}
-
-.nav-right {
-  float: right;
-}
-
-/* .detail-wrapper {
-  border: 2px solid #000;
-  overflow: hidden;
-  padding: 10px;
-}
-
-.box-detail {
-  float: left;
-  width: 24.99999%;
-  padding: 10px;
-
-}
-
-.detail {
-  float: left;
-  width: 74.99999%%;
-  padding: 10px;
-} */
-
-
-.detail-wrapper {
-  border: 2px radius #000;
-  overflow: hidden;
-  background-color: green;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.detail-wrapper div {
-  padding: 10px;
-}
-
-.box-detail {
-  float: left;
-  margin-right: 20px;
-  width: 25.99999%;
-  background-color: blue;
-  }  /* one */
-
-.detail {
-  overflow: hidden;
+  padding: 15px;
   margin: 10px;
-  width:  calc(73.99999% - 20px);
-  text-align: left;
-  line-height: 1.4em;
-  background-color: #5b5b3e;
-} /* two */ /* background color to see the element */
+}
 
-/* .detail p {
-  background-color: #cc0000;
-} */
+.img-column {
+  width: 20%;
+
+}
+
+.synopsis-column {
+  width: 70%;
+  height: 100%;
+  background-color: blue;
+}
 
 .img-container {
-  width: 100%;
-  height: auto;
+  float: left;
+  width: 30%;
+  height: 100%;
   text-align: center;
-  background-color: #ff0000; /* Why does it show under the img? Padding?  */
+  background-color: green;
+
 }
 
 .img-container img {
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 300px;
+
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+.author-name {
+  font-size: 20px;
+  margin: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
 }
