@@ -7,51 +7,72 @@
 html {
   font-family: sans-serif;
 }
-/* All background-colors are there for me to see the area the div actualy takes */
-.row {
-  background-color: red;
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.img-column,
-.synopsis-column {
-  float: left;
-  padding: 15px;
-  margin: 10px;
+.container {
+  width: 100%;
+  height: auto;
 }
 
-.img-column {
-  width: 20%;
-
-}
-
-
-/* synopsis-column , center in row div*/
-.synopsis-column {
-  width: 70%;
-  height: 100%;
-  background-color: blue;
-
-}
-/* do i even need a img-container? */
 .img-container {
   float: left;
-  width: 30%;
   height: 100%;
-  text-align: center;
-  background-color: green;
-
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
 }
 
-/* img center in img-column */
 .img-container img {
-  width: 200px;
   height: 300px;
-
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.author-name {
-  font-size: 20px;
-  margin: 5px;
-  padding-bottom: 5px;
+.order {
+  width: 80%;
+  display: block;
+  padding: 3px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  color: white;
+  background-color: #333333;
+}
+
+.description {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height:100%;
+  background-color: #f1f1f1;
+}
+
+.book-title {
+  padding: 5px;
   border-bottom: 2px solid black;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.book-writer {
+  padding: 5px;
+  border-bottom: 2px solid black;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
