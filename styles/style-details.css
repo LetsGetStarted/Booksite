@@ -8,23 +8,6 @@ html {
   font-family: sans-serif;
 }
 
-.header {
-  background-color:  White;
-}
-
-.header h1 {
-  background-color: inherit;
-  text-align: center;
-  padding: 20px;
-}
-
-.header p {
-  text-align: center;
-  font-size: 20px
-  padding: 10px;
-
-}
-
 /* Do I needa nav here ? */
 
 .nav {
@@ -73,6 +56,11 @@ html {
 .detail-wrapper {
   border: 2px radius #000;
   overflow: hidden;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .detail-wrapper div {
@@ -82,22 +70,22 @@ html {
 .box-detail {
   float: left;
   margin-right: 20px;
-  width: 25.99999%
+  width: 25.99999%;
+  background-color: blue;
   }  /* one */
 
 .detail {
   overflow: hidden;
   margin: 10px;
   width:  calc(73.99999% - 20px);
-  height: 100%;;
   text-align: left;
   line-height: 1.4em;
-  /* background-color: #5b5b3e; */
+  background-color: #5b5b3e;
 } /* two */ /* background color to see the element */
 
-.detail p {
-  /* background-color: #cc0000; */
-}
+/* .detail p {
+  background-color: #cc0000;
+} */
 
 .img-container {
   width: 100%;
@@ -115,19 +103,4 @@ html {
   content: "";
   display: table;
   clear: both;
-}
-
-.footer {
-  float: left;
-  width: 100%;
-  text-align: center;
-  background-color: lightgray;
-  padding: 20px;
-}
-
-.footer a {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
-  color: black;
 }
