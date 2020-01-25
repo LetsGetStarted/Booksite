@@ -7,12 +7,10 @@
 html {
   font-family: sans-serif;
 }
-
+/* All background-colors are there for me to see the area the div actualy takes */
 .row {
   background-color: red;
-  
 }
-
 
 .img-column,
 .synopsis-column {
@@ -26,12 +24,15 @@ html {
 
 }
 
+
+/* synopsis-column , center in row div*/
 .synopsis-column {
   width: 70%;
   height: 100%;
   background-color: blue;
-}
 
+}
+/* do i even need a img-container? */
 .img-container {
   float: left;
   width: 30%;
@@ -41,6 +42,7 @@ html {
 
 }
 
+/* img center in img-column */
 .img-container img {
   width: 200px;
   height: 300px;
